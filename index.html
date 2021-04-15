@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Github Finder</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-info mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Github Finder</a>
+        </div>
+    </nav>
+
+    <div class="container searchContainer">
+        <div class="search card card-body bg-light">
+            <h1 class="text-muted">Search Github Users</h1>
+            <p class="lead">Enter a username to fetch user proffile and repos</p>
+            <input type="text" id="searchUser" class="form-control" placeholder="Github username...">
+            <br>
+            <button id="searchBtn" class="btn btn-info text-white">Search</button>
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center bg-light text-muted">Github Finder &copy; Made with ❤ by Mohasin Hossain</footer>
+    
+    <!-- Scripts -->
+    <script src="js/ui.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
