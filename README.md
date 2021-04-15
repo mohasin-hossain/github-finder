@@ -6,7 +6,7 @@ Github User finder web app.
 
 - HTML
 - BOOTSTRAP
-- JAVASCRIPT
+- JAVASCRIPT OOP
 
 ## Specifications
 
